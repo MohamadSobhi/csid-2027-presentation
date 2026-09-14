@@ -1,0 +1,468 @@
+{
+  "width": 12192000,
+  "height": 6858000,
+  "aspectRatio": 1.7777777777777777,
+  "slides": [
+    {
+      "number": 1,
+      "image": "slides/slide-001.png",
+      "thumbnail": "slides/thumbs/slide-001.webp",
+      "media": [],
+      "links": [],
+      "text": "Overview of Research Progress\n    Second Year of Doctoral Program",
+      "hasAnimations": false,
+      "hasTransition": true,
+      "hidden": false
+    },
+    {
+      "number": 2,
+      "image": "slides/slide-002.png",
+      "thumbnail": "slides/thumbs/slide-002.webp",
+      "media": [],
+      "links": [],
+      "text": "Name :\nMohamad SOBHI   \nmohamad.sobhi@ensam.eu\n \nSupervisor &\nCo-supervisor:\nPr. Frédéric MERIENNE \nPr. Mohammad Mehdi Ebadzadeh \nDr. \nMahdiyehsadat\n \nMoosavi\n  \nDr. Christophe Guillet \nInstitution :\nArts et Métiers – LISPEN, Chalon-sur-Saône\n \n2\nSeptember 2025",
+      "hasAnimations": false,
+      "hasTransition": true,
+      "hidden": false
+    },
+    {
+      "number": 3,
+      "image": "slides/slide-003.png",
+      "thumbnail": "slides/thumbs/slide-003.webp",
+      "media": [],
+      "links": [],
+      "text": "3",
+      "hasAnimations": false,
+      "hasTransition": true,
+      "hidden": false
+    },
+    {
+      "number": 4,
+      "image": "slides/slide-004.png",
+      "thumbnail": "slides/thumbs/slide-004.webp",
+      "media": [],
+      "links": [],
+      "text": "Context & Objectives",
+      "hasAnimations": false,
+      "hasTransition": true,
+      "hidden": false
+    },
+    {
+      "number": 5,
+      "image": "slides/slide-005.png",
+      "thumbnail": "slides/thumbs/slide-005.webp",
+      "media": [],
+      "links": [],
+      "text": "Project process\n5\nF\ninal\n goal: have \nan AI agent \navatar that help stroke patients move their upper limb \nFinding the best \nStrategy Combination\n,\nEvolve the Learning\n \nDeveloping the environment \nsuitable for Agent training with reinforcement learning \nPPO\nSAC\nBC\nGAIL\nCuriosity\nMulti-joint\n \n(full body avatar)\nRandomization\nObstacle",
+      "hasAnimations": false,
+      "hasTransition": true,
+      "hidden": false
+    },
+    {
+      "number": 6,
+      "image": "slides/slide-006.png",
+      "thumbnail": "slides/thumbs/slide-006.webp",
+      "media": [],
+      "links": [],
+      "text": "Why? \n6\n• Intelligent agents for VR motor rehabilitation\n• RL + imitation + articulated movement\n• Task performance and human-like motion evaluation\nWhat? \nHow?\n• Unity ML-Agents: randomization, obstacles, multi-joint avatar\n• PPO, BC/GAIL/Curiosity, IK and direct-joint control\n• Human motion capture + trajectory and motor-control analysis\n• Repetitive upper-limb rehabilitation after stroke\n• Controlled and measurable training in VR\n• Task success ≠ human-like movement",
+      "hasAnimations": false,
+      "hasTransition": true,
+      "hidden": false
+    },
+    {
+      "number": 7,
+      "image": "slides/slide-007.png",
+      "thumbnail": "slides/thumbs/slide-007.webp",
+      "media": [],
+      "links": [],
+      "text": "Contributions & \nAchievments\nHybrid training with BC + GAIL + PPO \nHuman–agent motion evaluation using motor-control metrics \nRandomized pick-and-place environment \nObstacle-aware PPO with ray perception \nTwo multi-joint architectures: IK + PPO and PPO + FK \nMulti-seed evaluation for reliability and reproducibility \nHuman–agent framework with VIVE trackers \n1 journal published, 1 conference accepted, 1 journal under revision\n7",
+      "hasAnimations": false,
+      "hasTransition": true,
+      "hidden": false
+    },
+    {
+      "number": 8,
+      "image": "slides/slide-008.png",
+      "thumbnail": "slides/thumbs/slide-008.webp",
+      "media": [],
+      "links": [],
+      "text": "METHODS  \n1\nHybrid BC + PPO + GAIL\n for a controlled VR pick-and-place task",
+      "hasAnimations": false,
+      "hasTransition": true,
+      "hidden": false
+    },
+    {
+      "number": 9,
+      "image": "slides/slide-009.png",
+      "thumbnail": "slides/thumbs/slide-009.webp",
+      "media": [],
+      "links": [],
+      "text": "Human \nDemonstration \nCollection\n9",
+      "hasAnimations": false,
+      "hasTransition": true,
+      "hidden": false
+    },
+    {
+      "number": 10,
+      "image": "slides/slide-010.png",
+      "thumbnail": "slides/thumbs/slide-010.webp",
+      "media": [],
+      "links": [],
+      "text": "Reinforcement Learning Circle\n10\n3D \ncubeposition\n, \n3D \ntargetposition\n,\n3D \nrelativeposition\n,\nRay perception \nContinuous 3D force vector applied to the cube’s Rigidbody (physics-based control)\nIntrinsic reward\nExtrinsic reward",
+      "hasAnimations": false,
+      "hasTransition": true,
+      "hidden": false
+    },
+    {
+      "number": 11,
+      "image": "slides/slide-011.png",
+      "thumbnail": "slides/thumbs/slide-011.webp",
+      "media": [],
+      "links": [],
+      "text": "Algorithm of learning:\nBehavioral Cloning _ Supervised Learning\n11",
+      "hasAnimations": false,
+      "hasTransition": true,
+      "hidden": false
+    },
+    {
+      "number": 12,
+      "image": "slides/slide-012.png",
+      "thumbnail": "slides/thumbs/slide-012.webp",
+      "media": [],
+      "links": [],
+      "text": "An overview of framework\n12",
+      "hasAnimations": false,
+      "hasTransition": true,
+      "hidden": false
+    },
+    {
+      "number": 13,
+      "image": "slides/slide-013.png",
+      "thumbnail": "slides/thumbs/slide-013.webp",
+      "media": [],
+      "links": [],
+      "text": "Parallel \nTraining\n13",
+      "hasAnimations": false,
+      "hasTransition": true,
+      "hidden": false
+    },
+    {
+      "number": 14,
+      "image": "slides/slide-014.png",
+      "thumbnail": "slides/thumbs/slide-014.webp",
+      "media": [
+        {
+          "kind": "video",
+          "src": "assets/video/media1.mp4",
+          "x": 0.0,
+          "y": 0.11358034412365121,
+          "width": 1.0,
+          "height": 0.8864196558763487,
+          "poster": "assets/images/image36.png"
+        }
+      ],
+      "links": [],
+      "text": "Training AI agent in VR _ Video\n14",
+      "hasAnimations": true,
+      "hasTransition": true,
+      "hidden": false
+    },
+    {
+      "number": 15,
+      "image": "slides/slide-015.png",
+      "thumbnail": "slides/thumbs/slide-015.webp",
+      "media": [],
+      "links": [],
+      "text": "Evaluation & RESULTS",
+      "hasAnimations": false,
+      "hasTransition": true,
+      "hidden": false
+    },
+    {
+      "number": 16,
+      "image": "slides/slide-016.png",
+      "thumbnail": "slides/thumbs/slide-016.webp",
+      "media": [],
+      "links": [],
+      "text": "16\nResults:\nTrajectory comparison: \nAgent (blue) \nvs \nHuman (red)",
+      "hasAnimations": false,
+      "hasTransition": true,
+      "hidden": false
+    },
+    {
+      "number": 17,
+      "image": "slides/slide-017.png",
+      "thumbnail": "slides/thumbs/slide-017.webp",
+      "media": [],
+      "links": [],
+      "text": "Results:\nVelocity, \nAcceleration, and \nJerk Variability\nAgent (blue) \nvs \nHuman (red)\n17",
+      "hasAnimations": false,
+      "hasTransition": true,
+      "hidden": false
+    },
+    {
+      "number": 18,
+      "image": "slides/slide-018.png",
+      "thumbnail": "slides/thumbs/slide-018.webp",
+      "media": [],
+      "links": [],
+      "text": "Results:\nMotion study\n18",
+      "hasAnimations": false,
+      "hasTransition": true,
+      "hidden": false
+    },
+    {
+      "number": 19,
+      "image": "slides/slide-019.png",
+      "thumbnail": "slides/thumbs/slide-019.webp",
+      "media": [],
+      "links": [],
+      "text": "19\nResults:\nTraining Performance: \nLosses\nGAIL discriminator loss\nBehavioral cloning loss\nPPO policy loss \nPPO value loss ",
+      "hasAnimations": false,
+      "hasTransition": true,
+      "hidden": false
+    },
+    {
+      "number": 20,
+      "image": "slides/slide-020.png",
+      "thumbnail": "slides/thumbs/slide-020.webp",
+      "media": [],
+      "links": [],
+      "text": "20\nResults:\nTraining Performance: Reward\n Cumulative reward\n Episode Length",
+      "hasAnimations": false,
+      "hasTransition": true,
+      "hidden": false
+    },
+    {
+      "number": 21,
+      "image": "slides/slide-021.png",
+      "thumbnail": "slides/thumbs/slide-021.webp",
+      "media": [],
+      "links": [],
+      "text": "Journal Paper\n21\nhttps://doi.org/10.1109/ACCESS.2026.3658497",
+      "hasAnimations": false,
+      "hasTransition": true,
+      "hidden": false
+    },
+    {
+      "number": 22,
+      "image": "slides/slide-022.png",
+      "thumbnail": "slides/thumbs/slide-022.webp",
+      "media": [],
+      "links": [],
+      "text": "METHODS  \nII\nStrategy Comparison,\nRandomization,\nObstacles",
+      "hasAnimations": false,
+      "hasTransition": true,
+      "hidden": false
+    },
+    {
+      "number": 23,
+      "image": "slides/slide-023.png",
+      "thumbnail": "slides/thumbs/slide-023.webp",
+      "media": [],
+      "links": [],
+      "text": "Strategy Comparison",
+      "hasAnimations": false,
+      "hasTransition": true,
+      "hidden": false
+    },
+    {
+      "number": 24,
+      "image": "slides/slide-024.png",
+      "thumbnail": "slides/thumbs/slide-024.webp",
+      "media": [],
+      "links": [],
+      "text": "Compared training configurations for the VR pick-and-place study\n24",
+      "hasAnimations": false,
+      "hasTransition": true,
+      "hidden": false
+    },
+    {
+      "number": 25,
+      "image": "slides/slide-025.png",
+      "thumbnail": "slides/thumbs/slide-025.webp",
+      "media": [],
+      "links": [],
+      "text": "Conference paper\n25",
+      "hasAnimations": false,
+      "hasTransition": true,
+      "hidden": false
+    },
+    {
+      "number": 26,
+      "image": "slides/slide-026.png",
+      "thumbnail": "slides/thumbs/slide-026.webp",
+      "media": [],
+      "links": [],
+      "text": "Randomization\nObstacles",
+      "hasAnimations": false,
+      "hasTransition": true,
+      "hidden": false
+    },
+    {
+      "number": 27,
+      "image": "slides/slide-027.png",
+      "thumbnail": "slides/thumbs/slide-027.webp",
+      "media": [],
+      "links": [],
+      "text": "27\nMulti joint: toward full body AI \nagen\nFrom a fixed task to \nGENERALIZED\n unseen positions\nWhy this matters\n• Randomized or varied initial positions.\n• Goal: learn a general policy, not a memorized trajectory.\n• Current observation: almost successful; some configurations remain slow.",
+      "hasAnimations": false,
+      "hasTransition": true,
+      "hidden": false
+    },
+    {
+      "number": 28,
+      "image": "slides/slide-028.png",
+      "thumbnail": "slides/thumbs/slide-028.webp",
+      "media": [],
+      "links": [],
+      "text": "28\nGeneralization in the presence of barriers\nGeneralize for unseen obstacle layouts",
+      "hasAnimations": false,
+      "hasTransition": true,
+      "hidden": false
+    },
+    {
+      "number": 29,
+      "image": "slides/slide-029.png",
+      "thumbnail": "slides/thumbs/slide-029.webp",
+      "media": [],
+      "links": [],
+      "text": "Obstacle training\n8\nRandomised\n obstacle size, orientation and position; 748 ray-cast observations\nMean reward −0.713 → 9.038. \n200 held-out episodes per action mode.\nAction mode\nSuccess\nCollision\nTimeout\nStandard ONNX (sampled)\n87.0 %\n12.5 %\n0.5 %\nDeterministic mean action\n47.0 %\n4.0 %\n49.0 %",
+      "hasAnimations": false,
+      "hasTransition": false,
+      "hidden": false
+    },
+    {
+      "number": 30,
+      "image": "slides/slide-030.png",
+      "thumbnail": "slides/thumbs/slide-030.webp",
+      "media": [],
+      "links": [],
+      "text": "Multi joint training\nTowards full body AI agent",
+      "hasAnimations": false,
+      "hasTransition": true,
+      "hidden": false
+    },
+    {
+      "number": 31,
+      "image": "slides/slide-031.png",
+      "thumbnail": "slides/thumbs/slide-031.webp",
+      "media": [],
+      "links": [],
+      "text": "31",
+      "hasAnimations": false,
+      "hasTransition": true,
+      "hidden": false
+    },
+    {
+      "number": 32,
+      "image": "slides/slide-032.png",
+      "thumbnail": "slides/thumbs/slide-032.webp",
+      "media": [],
+      "links": [],
+      "text": "Multi-joint avatar experiments\n32\nIK + PPO\n: hand velocity control, joints derived by inverse kinematics\nPPO + Forward Kinematics: joint velocity control, hand motion derived by FK\nJoint algorithm\nSuccess, mean ± SD\nIK + PPO\n92.889 ± 1.678%\nPPO + FK \n95.111 ± 1.678%\nIK\n \nIK\n \nPPO\n \nPPO \nPPO \nFK ",
+      "hasAnimations": false,
+      "hasTransition": false,
+      "hidden": false
+    },
+    {
+      "number": 33,
+      "image": "slides/slide-033.png",
+      "thumbnail": "slides/thumbs/slide-033.webp",
+      "media": [
+        {
+          "kind": "video",
+          "src": "assets/video/media2.mp4",
+          "x": 0.029036417322834646,
+          "y": 0.0,
+          "width": 0.9419270833333333,
+          "height": 1.0,
+          "poster": "assets/images/image57.png"
+        }
+      ],
+      "links": [],
+      "text": "33\nIK + PPO\nPPO + FK ",
+      "hasAnimations": true,
+      "hasTransition": true,
+      "hidden": false,
+      "foreground": "assets/images/foreground-033.png"
+    },
+    {
+      "number": 34,
+      "image": "slides/slide-034.png",
+      "thumbnail": "slides/thumbs/slide-034.webp",
+      "media": [],
+      "links": [],
+      "text": "34\nMulti joint: toward full body AI agent\nTraining the agent",
+      "hasAnimations": true,
+      "hasTransition": true,
+      "hidden": false
+    },
+    {
+      "number": 35,
+      "image": "slides/slide-035.png",
+      "thumbnail": "slides/thumbs/slide-035.webp",
+      "media": [],
+      "links": [],
+      "text": "Review Paper\n35",
+      "hasAnimations": false,
+      "hasTransition": true,
+      "hidden": false
+    },
+    {
+      "number": 36,
+      "image": "slides/slide-036.png",
+      "thumbnail": "slides/thumbs/slide-036.webp",
+      "media": [],
+      "links": [],
+      "text": "Publications and submissions\n36\nPublished — IEEE Access, 2026\nCloser to Human: Hybrid Training of VR Agents Beyond Robotic Motion\nVol. 14, pp. 18940–18951  ·  DOI 10.1109/ACCESS.2026.3658497\nAccepted / published contribution — ESTCON / ICSL 2026\nComparative Learning Strategies for VR Agents: Reinforcement, Imitation, and Curiosity-Based Training\nCandidate-reported status; final proceedings record requires confirmation.\nIn Revision, Revision 1 — IEEE TSMC: Systems\nIntelligent Agents in Extended Reality as Socio-Technical Human-Machine Systems: A Systematic Review\nSMCA-26-06-3140  ·  Due 18 October 2026, 05:59 CEST",
+      "hasAnimations": false,
+      "hasTransition": false,
+      "hidden": false
+    },
+    {
+      "number": 37,
+      "image": "slides/slide-037.png",
+      "thumbnail": "slides/thumbs/slide-037.webp",
+      "media": [],
+      "links": [],
+      "text": "Human data collection and ethics\n37\nEthical approval obtained in 2026\nApproval document, identifier and protocol scope require confirmation.\nRemaining experiment: VIVE Ultimate Tracker acquisition\nValidate calibration, tracker placement and coordinate registration.\nCollect demonstrations within the approved protocol.\nCompare measured human motion with the two trained architectures.",
+      "hasAnimations": false,
+      "hasTransition": false,
+      "hidden": false
+    },
+    {
+      "number": 38,
+      "image": "slides/slide-038.png",
+      "thumbnail": "slides/thumbs/slide-038.webp",
+      "media": [],
+      "links": [],
+      "text": "Conclusion \nHybrid training with BC + GAIL + PPO \nHuman–agent motion evaluation using motor-control metrics \nRandomized pick-and-place environment \nObstacle-aware PPO with ray perception \nTwo multi-joint architectures: IK + PPO and PPO + FK \nMulti-seed evaluation for reliability and reproducibility \nHuman–agent framework with VIVE trackers \n1 journal published, 1 conference accepted, 1 journal under revision\n38",
+      "hasAnimations": false,
+      "hasTransition": true,
+      "hidden": false
+    },
+    {
+      "number": 39,
+      "image": "slides/slide-039.png",
+      "thumbnail": "slides/thumbs/slide-039.webp",
+      "media": [],
+      "links": [],
+      "text": "Rest of PhD\n39\nPeriod\nPlanned work\nSept – Oct 2026\nLive validation of the tracker pipeline: build, role assignment, space calibration, alignment checks.  Revised systematic review submitted (due 18 Oct).\nOctober 2026\nPilot acquisition on the frozen 15 task cases; functional calibration, reachability screening, offline analysis.\nNovember 2026\nHuman–agent comparison on identical cases: human vs IK agent vs direct-joint agent.  Integration into the thesis.\nNov – Dec 2026\nThesis completion: results, discussion, conclusion, reproducibility appendices.  Transmission to the reviewers.\nJanuary 2027\nDefence\n preparation and \ndefence\n.",
+      "hasAnimations": false,
+      "hasTransition": true,
+      "hidden": false
+    },
+    {
+      "number": 40,
+      "image": "slides/slide-040.png",
+      "thumbnail": "slides/thumbs/slide-040.webp",
+      "media": [],
+      "links": [],
+      "text": "questions ?",
+      "hasAnimations": false,
+      "hasTransition": true,
+      "hidden": false
+    }
+  ]
+}

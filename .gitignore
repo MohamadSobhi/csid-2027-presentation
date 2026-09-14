@@ -1,0 +1,9 @@
+source.local.json
+.qa/
+__pycache__/
+*.pyc
+*.pptx
+~$*
+.env*
+
+.build-*/
